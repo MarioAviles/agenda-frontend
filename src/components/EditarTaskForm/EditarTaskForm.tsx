@@ -85,6 +85,7 @@ const EditarTaskForm: React.FC = () => {
         <button onClick={editarTarea}>Editar Tarea</button>
       </form>
       <TaskList></TaskList>
+      
     </div>
   );
 };

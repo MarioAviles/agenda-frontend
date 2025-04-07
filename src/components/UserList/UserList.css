@@ -1,0 +1,22 @@
+.taskList {
+    display:  flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 5em;
+  }
+  
+  .taskList table{
+    border-collapse: collapse;
+    border: 1px solid #232c3d;
+  }
+  
+  .taskList th, td{
+    border: 1px solid #232c3d;
+    padding: 10px;
+    text-align: left;
+  
+  }
+  
+  
+  

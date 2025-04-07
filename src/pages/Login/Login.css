@@ -1,0 +1,33 @@
+.auth{
+    text-align: center;
+    padding: 20px;
+    color: #232c3d;
+}
+
+.apartados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.apartado{
+    width: 30%;
+    border: 3px solid #232c3d;
+    background-color: white;
+    color: #232c3d;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.apartado:hover{
+    transform: scale(1.05);
+}
+
+.apartado-img{
+    width: 100%;
+    border-radius: 8px;
+}
